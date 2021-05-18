@@ -1,0 +1,180 @@
+body {
+  background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.4) -12.01%, rgba(0, 0, 0, 0) 112.26%), url('assets/photo-1446057032654-9d8885db76c6.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.banner{ 
+    height: 50%;
+    width: 100%;
+}
+.banner .navbar{
+    margin-top: 10px;
+}
+.banner .navbar-brand{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 32px;
+}
+img, svg{
+  width: 150px;
+  height: 60px;
+}
+.banner .nav {
+    margin-left: 10%;
+}
+.banner .nav li a {
+    color:#ffffff;
+    font-size: 1.3em;
+}
+.banner .nav  .btn{
+    background-color:#ffffff;
+    color: black;
+}
+.banner .nav-item   a:hover{
+  background-color:black;
+  color:white;
+}
+
+.banner .info{
+    margin:125px 32px;
+
+}
+.banner .info h1{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.banner .info h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.banner .info a{
+    margin-top: 32px;
+    color: #000000;
+    background: white;
+    padding: 8px 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner .info a:hover{
+    color: #ffffff;
+    background-color: black;
+}
+label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+#forgot-pass {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: right;
+}
+#card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  height: auto;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+}
+#card-content {
+  padding: 24px 24px;
+}
+#card-title {
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  text-align: center;
+}
+#signup {
+  color: #2dbd6e;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+}
+#submit-btn {
+  background: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 32px;
+  transition: 0.25s;
+  width: 153px;
+}
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #000000;
+}
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.form-border {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 1px;
+  width: 100%;
+}
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+
+
+
+
+
+
+#login-card{
+    background: #fbfbfb;
+  border-radius: 8px;
+  height: auto;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+}
+
+#email{
+    border-radius:4x;
+     margin-top: 16px;
+    background-color: #ebf0fc;
+    border-color: #ebf0fc;
+    color: #9da3b0;
+}
+
+#button{
+      background: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 32px;
+  transition: 0.25s;
+  width: 153px;
+}
+
+#container{
+    margin-top:25px;
+}
+
+.h2 ,h2{
+  font-size: 3rem;
+}
+h2{
+  display: block;
+  margin-block-start: 0.05em;
+}
